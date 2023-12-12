@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewSurfSolRadDown"
+        android:layout_width="392dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/material_dynamic_primary40"
+        android:padding="10dp"
+        android:text="Max"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSurfSensHeatFlux"
+        android:layout_width="392dp"
+        android:layout_height="40dp"
+        android:background="@color/material_dynamic_primary60"
+        android:padding="10dp"
+        android:text="Min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSurfSolRadDown" />
+
+    <TextView
+        android:id="@+id/textViewSurfLatHeatFlux"
+        android:layout_width="392dp"
+        android:layout_height="40dp"
+        android:background="@color/material_dynamic_primary70"
+        android:padding="10dp"
+        android:text="Précip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSurfSensHeatFlux" />
+
+    <TextView
+        android:id="@+id/textViewSurfNetSolRad"
+        android:layout_width="392dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="3dp"
+        android:background="@color/material_dynamic_primary70"
+        android:padding="10dp"
+        android:text="Latitude"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textViewSurfNetThermRad"
+        android:layout_width="392dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/material_dynamic_primary80"
+        android:padding="10dp"
+        android:text="Longitude"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="La latitude"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSurfLatHeatFlux" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="La longitude"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSurfNetSolRad" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSurfSolRadDown"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/temp_max" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSurfSensHeatFlux"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/temp_min" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSurfLatHeatFlux"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/pr_cip" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSurfNetSolRad"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/lat" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewSurfNetThermRad"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/resource_long" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
