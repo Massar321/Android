@@ -21,7 +21,13 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+
+// Activité principale de l'application, point d'entrée pour l'utilisateur
 public class MainActivity extends AppCompatActivity {
+
+    // Méthodes de cycle de vie de l'activité (onCreate, etc.)
+    // Initialisation des composants de l'interface utilisateur et gestion des événements
+
     private RecyclerView recyclerView;
     private ArrayList<Informations> arrayList;
     private Button btnTemperature;

@@ -4,7 +4,13 @@ package com.example.projet;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+// Classe modèle pour les informations météorologiques
     public class Informations implements Parcelable {
+
+    // Variables pour les différentes informations météorologiques
+
+    // Constructeur pour initialiser les informations
+    // Getters et setters pour chaque variable
 
 
         private String tempMax;

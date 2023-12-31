@@ -5,7 +5,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/aerial_photograph_g82268426a_1920"
+    android:background="@drawable/meteo"
     android:orientation="vertical"
     android:overScrollMode="ifContentScrolls"
     tools:context=".MainActivity">
@@ -16,7 +16,7 @@
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Afficher"
+        android:text="voir_temps"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="32dp"
-        android:text="Voir sur map"
+        android:text="localiser"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toStartOf="@+id/btnQuitter"
         app:layout_constraintHorizontal_bias="0.545"
@@ -53,7 +53,7 @@
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/shape"
-        android:text="Quitter"
+        android:text="Retour"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

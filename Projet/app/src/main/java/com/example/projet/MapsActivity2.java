@@ -17,7 +17,11 @@ import com.example.projet.databinding.ActivityMaps2Binding;
 
 import java.util.ArrayList;
 
+// Activité pour afficher la carte et les informations de localisation
 public class MapsActivity2 extends FragmentActivity implements OnMapReadyCallback {
+
+    // Méthodes de cycle de vie de l'activité et configuration de la carte
+    // Fonctions pour manipuler la carte et les marqueurs
 
     private GoogleMap mMap;
     private ActivityMaps2Binding binding;

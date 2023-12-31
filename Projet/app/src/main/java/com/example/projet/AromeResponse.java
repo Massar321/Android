@@ -4,7 +4,13 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
+// Classe représentant la réponse de l'API pour les données météorologiques
 public class AromeResponse {
+
+    // Définition des variables pour stocker les données de réponse
+
+    // Constructeurs, getters et setters pour manipuler les données de réponse
+
     int total_count;
 
     ArrayList<Records> records;
